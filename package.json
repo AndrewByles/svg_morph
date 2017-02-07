@@ -1,0 +1,38 @@
+{
+  "name": "svg-morph",
+  "version": "1.0.0",
+  "description": "Display data using SVG and utalise morphing.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewByles/svg_morph.git"
+  },
+  "keywords": [
+    "SVG",
+    "CSS",
+    "morphing"
+  ],
+  "author": "Andrew Byles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewByles/svg_morph/issues"
+  },
+  "homepage": "https://github.com/AndrewByles/svg_morph#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
